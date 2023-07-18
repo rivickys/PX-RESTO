@@ -1,7 +1,8 @@
-## Add to your qb-core/shared/items.lua (Credit to https://github.com/Zach488/qb-resto for saving me the stress of making my own.)
+##PX_RESTO
+## Add to your qb-core/shared/items.lua
 ```
 -- Food
-## Add this to qb-core/shared/items.lua
+## tambahkan list item di qb-core/shared/items.lua
 ```
     -- Lisence
     ["lisensi_memasak"] 			 = {["name"] = "lisensi_memasak",  	     		["label"] = "SIM 1",	 		        ["weight"] = 0, 		["type"] = "item", 		["image"] = "simm1.png", 		     ["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,  ["description"] = "Surat Izin Memasak 1"},
@@ -23,7 +24,7 @@
     ["resto-susumochi"] 			 = {["name"] = "resto-susumochi", 				["label"] = "Susu Mochi", 				["weight"] = 125, 		["type"] = "item", 		["image"] = "susumochi.png", 		 ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Jus Apel"},
 ```
 
-## Add this to your @qb-core/shared/jobs.lua 
+## Tambahkan list jabatan di @qb-core/shared/jobs.lua 
 ```
 ["resto"] = {
         label = "Restaurant",
@@ -31,31 +32,31 @@
         grades = {
             ['0'] = {
                 name = "Magang",
-                payment = 50
+                payment = 500
             },
             ['1'] = {
                 name = "Karyawan",
-                payment = 75
+                payment = 750
             },
             ['2'] = {
                 name = "Manager",
-                payment = 100
+                payment = 1000
             },
             ['3'] = {
                 name = "Boss",
-                payment = 125
+                payment = 1250
             },
             ['4'] = {
                 name = "CEO",
                 isboss = true,
-                payment = 150
+                payment = 1500
             },
         },
     },	
 ```
-## Add images to your inventory script
+## Tambahkan gambar item di inventory script
 
-## Add these 3 to your dpemotes.
+## tambahkan list animasi ke dpemotes.
 ```
 ["bsdrink"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "BS Drink", AnimationOptions =
    {

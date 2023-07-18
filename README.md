@@ -1,4 +1,4 @@
-##PX_RESTO
+## PX_RESTO
 ## Add to your qb-core/shared/items.lua
 ```
 ## tambahkan list item di qb-core/shared/items.lua

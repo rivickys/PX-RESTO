@@ -86,4 +86,4 @@
 
 ```
 
-## Add the 2 .ogg files in [sounds] to interact-sound/client/html/sounds
+## tambahkan 2 .ogg file [sounds] ke interact-sound/client/html/sounds

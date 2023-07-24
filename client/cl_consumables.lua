@@ -350,8 +350,6 @@ RegisterNetEvent('px_resto:closemenu', function()
 end)
 
 RegisterNetEvent('px_resto:client:cookBurgers', function()
-    SetEntityCoords(PlayerPedId(), -2244.04, -623.35, 13.81)
-    SetEntityHeading(PlayerPedId(), 286.03)
     exports['qb-menu']:openMenu({
         {
             header = "Kompor",
@@ -417,8 +415,6 @@ RegisterNetEvent('px_resto:client:cookBurgers', function()
 end)
 
 RegisterNetEvent('px_resto:client:drinkStation', function()
-    SetEntityCoords(PlayerPedId(), -2244.84, -624.68, 13.81)
-    SetEntityHeading(PlayerPedId(), 205.53)
     exports['qb-menu']:openMenu({
         {
             header = "Buat minuman",
